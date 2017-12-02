@@ -1,0 +1,54 @@
+body {
+	background-color: gold;
+}
+.container {
+	margin-top: 10%;
+	background-color: maroon;
+}
+.col-md-10, .col-md-12, button, .center-block {
+	text-align: center;
+}
+
+#question {
+	font-size: 36px;
+	margin: 20px;
+	background-color: gold;
+}
+
+#answer1, #answer2, #answer3, #answer4, #timer {
+	margin: 10px;
+	font-size: 24px;
+	background-color: white;
+} 
+
+header {
+	text-align: center;
+	font-size: 72px;
+	color: black;
+	margin: 20px;
+}
+
+button {
+	width: 90%;
+	border: none;
+}
+
+/*window.onload = function() {
+	countdownTimer.start;
+};
+var intervalId;
+var clockRunning = false;
+
+var countdownTimer = {
+	seconds: 30,
+	start: function() {
+		intervalId = setInterval(countdownTimer.count,1000);
+		clockRunning = true;
+		
+	},
+	count: function() {
+		countdownTimer.seconds--;
+		$('#countdown').text(countdownTimer.seconds);
+		console.log(countdownTimer.seconds)
+	},
+};*/
